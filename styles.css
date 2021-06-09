@@ -28,3 +28,42 @@ h1{
         background-color: pink;
     }
 }
+
+header{
+    width: 100%;
+    background-color: royalblue;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+    color: white;
+
+}
+
+
+.link{
+    text-decoration: none;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 20px;
+    margin: 20px;
+    display: flex;
+}
+
+i.fas.fa-bars{
+    display: none;
+}
+
+@media (max-width: 520px){
+    .link{
+        display: none;
+    }
+    i.fas.fa-bars{
+        display: flex;
+        margin: 20px;
+    }
+}
