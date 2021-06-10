@@ -41,10 +41,9 @@ header{
 .nav{
     display: flex;
     list-style: none;
-    color: white;
+    text-decoration: none;
 
 }
-
 
 .link{
     text-decoration: none;
@@ -52,6 +51,8 @@ header{
     font-size: 20px;
     margin: 20px;
     display: flex;
+    color: white;
+
 }
 
 i.fas.fa-bars{
